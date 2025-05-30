@@ -1,0 +1,15 @@
+local placeId = game.PlaceId
+
+local scripts = {
+    [87700573492940] = "https://pastebin.com/raw/VawT7UkS",
+    [83312952548612] = "https://raw.githubusercontent.com/xeric-rblx/TrollIsAPinningTower2/refs/heads/main/TrollIsAPinningTower2.lua",
+    [101949297449238] = "https://raw.githubusercontent.com/xeric-rblx/BuildAnIsland/refs/heads/main/BuildAnIsland.lua",
+    [142823291] = "https://raw.githubusercontent.com/xeric-rblx/MM2/refs/heads/main/mm2.lua",
+}
+
+local url = scripts[placeId]
+if url then
+    loadstring(game:HttpGet(url))()
+else
+    game.Players.LocalPlayer:Kick("Xeric Hub doesn't support this game!")
+end
