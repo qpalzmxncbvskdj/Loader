@@ -5,8 +5,8 @@ local scripts = {
     [83312952548612] = "https://raw.githubusercontent.com/xeric-rblx/TrollIsAPinningTower2/refs/heads/main/TrollIsAPinningTower2.lua",
     [101949297449238] = "https://raw.githubusercontent.com/xeric-rblx/BuildAnIsland/refs/heads/main/BuildAnIsland.lua",
     [142823291] = "https://raw.githubusercontent.com/xeric-rblx/MM2/refs/heads/main/mm2.lua",
-    [123456789] = "https://raw.githubusercontent.com/xeric-rblx/AuruzzRNG/refs/heads/main/AuruzzRNG.lua", -- Auruzz RNG by JustMicka
-    [987654321] = "https://raw.githubusercontent.com/xeric-rblx/Fortline/refs/heads/main/Fortline.lua" -- FORTLINE by Battle Royale
+    [75852144330025] = "https://raw.githubusercontent.com/xeric-rblx/AuruzzRNG/refs/heads/main/AuruzzRNG.lua", -- Auruzz RNG by JustMicka
+    [15787925600] = "https://raw.githubusercontent.com/xeric-rblx/Fortline/refs/heads/main/Fortline.lua" -- FORTLINE by Battle Royale
 }
 
 local url = scripts[placeId]
