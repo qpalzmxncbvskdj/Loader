@@ -1,1 +1,362 @@
-loadstring(game:HttpGet("https://ripskids.lol/verified/XericHub/loader.lua"))()
+local J,C,B,q,ga,G,oa,Aa,la,l,f,A
+G,J={[-20512]=-16492,[-17439]=24134,[-5841]=6961,[6298]=20047,[-25117]=-27908,[-2868]=-3413,[19929]=7230,[-18397]=-16492,[4898]=-12490,[-28773]=27612,[16814]=-25039,[2377]=-16492,[22891]=-12490,[-7252]=-27908,[-17147]=-10010,[-1340]=-3413,[1494]=-12490,[6272]=29185,[903]=29185,[-7255]=4439,[-32562]=-16492},function(Ba)
+    return G[Ba- -6494]
+end
+l={[-27908]=function()
+    B=(function(...)
+        return{[1]={...},[2]=la('#',...)}
+    end);
+    f=J(-9362);
+end,[29185]=function()
+    la=(select);
+    f=J(-13746);
+end,[-3413]=function()
+    q=((function()
+        local function x(ka,z,h)
+            if z>h then
+                return
+            end
+            return ka[z],x(ka,z+1,h)
+        end
+        return x
+    end)());
+    f=J(-47180912540538/1337820414);
+    return true;
+end,[-16492]=function()
+    Aa,A,oa=(string.char),(string.byte),(bit32 .bxor);
+    f=J(-222);
+end,[-12490]=function()
+    ga=(getfenv());
+    f=J(-4117);
+end}
+f=J(-5000)
+repeat
+    while true do
+        C=l[f]
+        if C~=nil then
+            if C()then
+                break
+            end
+        end
+    end
+until f==-57618401750208/-2086715984
+local ia,j,wa,K,b,_,qa,sa,y,O
+wa,ia={[-30359]=16040,[17334]=21637,[32249]=-9141,[-31996]=-11089,[-3471]=30726,[-12254]=1182,[29497]=14929,[-24588]=-21658,[-26718]=-7623,[22476]=-15543,[22601]=9097,[14161]=29587,[-4929]=-20209,[22402]=6252,[32448]=16553,[-31717]=-21806,[24285]=-18968,[9573]=21759,[15018]=-11089,[13798]=-21638},function(N)
+    return wa[N- -9809]
+end
+j={[-21638]=function()
+    y=B((function(p,k)
+        local F,ua,Ja,za,ea,ma,Y,Ca,pa,U
+        F,pa={[-22633]=13888,[-863]=-32541,[-17824]=-22777},function(R)
+            return F[R+-18992]
+        end
+        za={[1263]=function()
+            ea=ea..Aa(oa(A(p,(Ja-101)+1),A(k,(Ja-101)%#k+1)))
+            U=pa(18129)
+        end,[-32541]=function()
+            ma=ma+Y;
+            Ja=ma;
+            if ma~=ma then
+                U=pa(-3641)
+            else
+                U=12101
+            end
+        end,[15727]=function()
+            Ja=ma;
+            if Ca~=Ca then
+                U=13888
+            else
+                U=12101
+            end
+        end,[12101]=function()
+            if(Y>=0 and ma>Ca)or((Y<0 or Y~=Y)and ma<Ca)then
+                U=13888
+            else
+                U=1263
+            end
+        end}
+        U=pa(1168)
+        repeat
+            while true do
+                ua=za[U]
+                if ua~=nil then
+                    if ua()then
+                        break
+                    end
+                elseif U==13888 then
+                    return ea
+                elseif U==-22777 then
+                    ea='';
+                    Y,ma,Ca=1,101,(#p-1)+101
+                    U=15727
+                end
+            end
+        until U==-1798
+    end)(y,_))
+    K=ia(-7.8292785253285642e-05*466543627)
+end,[-20209]=function()
+    y=B(y(_,q(b[1],1,b[2])))
+    K=ia(-2141508475- -2141521267)
+end,[30777]=function()
+    b='\17\148'
+    K=-12132325862515/651050489
+end,[-28583]=function()
+    y='v\245|\241'
+    K=ia(7.372536549939454e-06*1963503321)
+end,[-15397]=function()
+    b='\28-\202\17_\"&\160\160\153\175\18\208<\232\129\a\23\25+\vLQ\19\169\151\139\187\51\149\194\57\215\240r\f\148\212\219\"\216,nK\150\"\173\137\16\151]\252\174\4\210[\166z@nU\240\f\246\199z\189\243Jn\205l\27v\26v\208\19\31pf\187\231\150\188O\135$\240\134\24F\v\53AXXH\170\132\214\228?\214\194f\210\185\127Z\128\215\151?\154*+\3\192=\187\213V\134\3\190\232C\220\20\243}XpS\254\v\224\199~\183\243Jx\144/\22j\21'
+    K=ia(-941275604+941279956)
+end,[-11089]=function()
+    K=ia(-2047565692920/-91246243);
+    return true;
+end,[-829]=function()
+    sa=ga[sa]
+    K=21567797021568/-754567296
+end,[9097]=function()
+    sa=sa(q(y[1],1,y[2]))
+    K=4936163-4926901
+end,[-18635]=function()
+    _=(function(na,ra)
+        local Ga,t,w,da,ya,ja,La,i,xa,ba
+        w,ba={[-26043]=23689,[-7380]=23689,[-7427]=28099,[18299]=-12560,[-30720]=-20842,[-17145]=1831,[-31820]=-20842,[-7026]=4442},function(Q)
+            return w[Q-30715]
+        end
+        La={[1831]=function()
+            xa=xa+Ga;
+            da=xa;
+            if xa~=xa then
+                t=ba(-5)
+            else
+                t=ba(4672)
+            end
+        end,[23689]=function()
+            if(Ga>=0 and xa>ja)or((Ga<0 or Ga~=Ga)and xa<ja)then
+                t=ba(-1105)
+            else
+                t=ba(23288)
+            end
+        end,[4442]=function()
+            da=xa;
+            if ja~=ja then
+                t=-20842
+            else
+                t=ba(23335)
+            end
+        end,[28099]=function()
+            i=i..Aa(oa(A(na,(da-51)+1),A(ra,(da-51)%#ra+1)))
+            t=ba(13570)
+        end}
+        t=ba(49014)
+        repeat
+            while true do
+                ya=La[t]
+                if ya~=nil then
+                    if ya()then
+                        break
+                    end
+                elseif t==-12560 then
+                    i='';
+                    xa,ja,Ga=51,(#na-1)+51,1
+                    t=ba(23689)
+                elseif t==-20842 then
+                    return i
+                end
+            end
+        until t==-25615
+    end)(_,b)
+    K=ia(218881059-218861371)
+end,[30726]=function()
+    y=y[q(_[1],1,_[2])]
+    K=ia(-6.5762878509571555e-06*-1914910096)
+end,[9262]=function()
+    sa=sa()
+    K=ia(-41805)
+end,[16553]=function()
+    sa='\179\190R+*\171\163Z!>'
+    K=ia(1556266666+-1556259141)
+end,[21637]=function()
+    y='\223\209\51OY'
+    K=ia(-34721273429426/1573733102)
+end,[14929]=function()
+    _=ga[_]
+    K=-1258120537+1258105140
+end,[1888]=function()
+    _=B((function(L,v)
+        local va,d,ca,aa,Ia,ha,P,T,I,H
+        d,T={[21246]=2042,[-18739]=4017,[11561]=-28567,[30123]=4017,[18254]=32660},function(M)
+            return d[M-22008]
+        end
+        Ia={[2042]=function()
+            H=H+aa;
+            P=H;
+            if H~=H then
+                ha=T(52131)
+            else
+                ha=-28567
+            end
+        end,[-28567]=function()
+            if(aa>=0 and H>ca)or((aa<0 or aa~=aa)and H<ca)then
+                ha=T(3269)
+            else
+                ha=-1640
+            end
+        end,[-1640]=function()
+            va=va..Aa(oa(A(L,(P-10)+1),A(v,(P-10)%#v+1)))
+            ha=T(43254)
+        end,[6984]=function()
+            P=H;
+            if ca~=ca then
+                ha=4017
+            else
+                ha=T(33569)
+            end
+        end}
+        ha=T(40262)
+        repeat
+            while true do
+                I=Ia[ha]
+                if I~=nil then
+                    if I()then
+                        break
+                    end
+                elseif ha==4017 then
+                    return va
+                elseif ha==32660 then
+                    va='';
+                    ca,H,aa=(#L-1)+10,10,1
+                    ha=6984
+                end
+            end
+        until ha==-18224
+    end)(_,b))
+    K=ia(-1477962906+1477949626)
+end,[-21806]=function()
+    b='o\225\244'
+    K=-3746660000448/-1984459746
+end,[21759]=function()
+    _="\'\149\128\31\166\145\27"
+    K=ia(1788387129-1788428655)
+end,[29587]=function()
+    qa="tY\190a,\24\t\143\210\248\216<\183U\156\233rulXn>2|\199\227\238\213G\187\161V\186\223\ni\230\189\184J\173NA1\162S\195\236!\229e\145\153p\170-\159\16\"A\'\149j\133\232\18\216\146.\29\226\1z\31"
+    K=ia(2.5520839758539422e-05*-1347800477)
+end,[1182]=function()
+    sa=(function(Ma,a)
+        local m,Da,g,E,n,V,Ha,Ea,c,Fa
+        n,Ea={[304]=1887,[-24116]=-28860,[-28683]=1887,[-12751]=5598,[-14461]=-9143,[19408]=-30627},function(_a)
+            return n[_a- -23771]
+        end
+        E={[-30627]=function()
+            g=g+V;
+            Da=g;
+            if g~=g then
+                c=1887
+            else
+                c=Ea(-36522)
+            end
+        end,[-9143]=function()
+            Da=g;
+            if Fa~=Fa then
+                c=Ea(-52454)
+            else
+                c=5598
+            end
+        end,[-18603]=function()
+            m=m..Aa(oa(A(Ma,(Da-248)+1),A(a,(Da-248)%#a+1)))
+            c=Ea(-4363)
+        end,[5598]=function()
+            if(V>=0 and g>Fa)or((V<0 or V~=V)and g<Fa)then
+                c=Ea(-23467)
+            else
+                c=-18603
+            end
+        end}
+        c=Ea(-47887)
+        repeat
+            while true do
+                Ha=E[c]
+                if Ha~=nil then
+                    if Ha()then
+                        break
+                    end
+                elseif c==1887 then
+                    return m
+                elseif c==-28860 then
+                    m='';
+                    Fa,V,g=(#Ma-1)+248,1,248
+                    c=Ea(-38232)
+                end
+            end
+        until c==26325
+    end)(sa,y)
+    K=-9.2718209549233393e-07*894106998
+end,[-7623]=function()
+    y=ga[q(y[1],1,y[2])]
+    K=ia(-1070005939- -1070005703)
+end,[-21658]=function()
+    b=B((function(fa,Ka)
+        local Z,W,S,s,r,e,u,X,ta,o
+        W,X={[26426]=22924,[15025]=16734,[-29917]=16734,[-9563]=29507,[16822]=16734,[-17229]=14870,[31743]=-14506},function(D)
+            return W[D+29193]
+        end
+        s={[29507]=function()
+            ta=ta+e;
+            u=ta;
+            if ta~=ta then
+                S=X(-12371)
+            else
+                S=X(-2767)
+            end
+        end,[4834]=function()
+            r=r..Aa(oa(A(fa,(u-217)+1),A(Ka,(u-217)%#Ka+1)))
+            S=X(-38756)
+        end,[22924]=function()
+            if(e>=0 and ta>Z)or((e<0 or e~=e)and ta<Z)then
+                S=X(-14168)
+            else
+                S=4834
+            end
+        end,[14870]=function()
+            u=ta;
+            if Z~=Z then
+                S=X(-59110)
+            else
+                S=22924
+            end
+        end}
+        S=X(2550)
+        repeat
+            while true do
+                o=s[S]
+                if o~=nil then
+                    if o()then
+                        break
+                    end
+                elseif S==-14506 then
+                    r='';
+                    ta,Z,e=217,(#fa-1)+217,1
+                    S=X(-46422)
+                elseif S==16734 then
+                    return r
+                end
+            end
+        until S==23913
+    end)(b,qa))
+    K=ia(-1976033782+1976019044)
+end,[-18968]=function()
+    _='\17\148'
+    K=ia(1017714603-1017710614)
+end,[6252]=function()
+    _='v\245|\241'
+    K=-898070743- -898101520
+end}
+K=ia(22639)
+repeat
+    while true do
+        O=j[K]
+        if O~=nil then
+            if O()then
+                break
+            end
+        end
+    end
+until K==1063585658+-1063594799
