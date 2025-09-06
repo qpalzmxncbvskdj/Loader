@@ -12,7 +12,8 @@ local scripts = {
     [105834035548197] = "https://raw.githubusercontent.com/qpalzmxncbvskdj/FindTheGubbys/refs/heads/main/FindTheGubbys.lua",
     [12355337193] = "https://raw.githubusercontent.com/qpalzmxncbvskdj/MVSD/refs/heads/main/MVSD.lua",
     [104965156633249] = "https://raw.githubusercontent.com/qpalzmxncbvskdj/Poop/refs/heads/main/Poop.lua",
-    [79546208627805] = "https://raw.githubusercontent.com/qpalzmxncbvskdj/99NightsInTheForest/refs/heads/main/99NightsInTheForest.lua"
+    [79546208627805] = "https://raw.githubusercontent.com/qpalzmxncbvskdj/99NightsInTheForest/refs/heads/main/99NightsInTheForest.lua",
+    [126509999114328] = "https://raw.githubusercontent.com/qpalzmxncbvskdj/99NightsInTheForest/refs/heads/main/99NightsInTheForest.lua"
 }
 
 local url = scripts[placeId]
