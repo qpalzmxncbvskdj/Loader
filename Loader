@@ -18,15 +18,25 @@ local scripts = {
 
 local url = scripts[placeId]
 
--- Replace this with the actual PlaceId for 99 Nights
+-- Specific PlaceId for 99 Nights
 local NINETY_NIGHTS_PLACE_ID = 79546208627805  
 
-if url then
-    if gameName == "Survive 99 Nights" and placeId == NINETY_NIGHTS_PLACE_ID then
-        loadstring(game:HttpGet(url))()
+if gameName == "Survive 99 Nights" then
+    if placeId == NINETY_NIGHTS_PLACE_ID then
+        -- Execute the script for 99 Nights
+        if url then
+            loadstring(game:HttpGet(url))()
+        else
+            game.Players.LocalPlayer:Kick("Script not found for this PlaceId!")
+        end
     else
-        game.Players.LocalPlayer:Kick("This script only works for Survive 99 Nights on the correct place!")
+        game.Players.LocalPlayer:Kick("This is Survive 99 Nights, but not the supported place!")
     end
 else
-    game.Players.LocalPlayer:Kick("Xeric Hub doesn't support this game!")
+    if url then
+        -- Execute other scripts for other games
+        loadstring(game:HttpGet(url))()
+    else
+        game.Players.LocalPlayer:Kick("Xeric Hub doesn't support this game!")
+    end
 end
