@@ -1,5 +1,4 @@
 local placeId = game.PlaceId
-local gameName = game:GetService("MarketplaceService"):GetProductInfo(placeId).Name
 
 local scripts = {
     [87700573492940] = "https://pastebin.com/raw/VawT7UkS",
@@ -18,25 +17,8 @@ local scripts = {
 
 local url = scripts[placeId]
 
--- PlaceId for 99 Nights
-local NINETY_NIGHTS_PLACE_ID = 79546208627805  
-
-if gameName == "Survive 99 Nights" then
-    -- Execute immediately if the game is Survive 99 Nights
-    if url then
-        loadstring(game:HttpGet(url))()
-    else
-        game.Players.LocalPlayer:Kick("Script not found for this PlaceId!")
-    end
+if url then
+    loadstring(game:HttpGet(url))()
 else
-    -- If not Survive 99 Nights, only execute if the PlaceId matches 99 Nights
-    if placeId == NINETY_NIGHTS_PLACE_ID then
-        if url then
-            loadstring(game:HttpGet(url))()
-        else
-            game.Players.LocalPlayer:Kick("Script not found for this PlaceId!")
-        end
-    else
-        game.Players.LocalPlayer:Kick("Xeric Hub doesn't support this game!")
-    end
+    game.Players.LocalPlayer:Kick("Xeric Hub doesn't support this game!")
 end
